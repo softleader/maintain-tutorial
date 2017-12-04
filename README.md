@@ -13,7 +13,7 @@
 
 ## 架構
 
-![](https://github.com/softleader/maintain-tutorial/structure.png)
+![](https://github.com/softleader/maintain-tutorial/blob/master/structure.png)
 
 ## 過版指令
 
