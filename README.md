@@ -67,6 +67,12 @@ $ docker stack rm $(stack name}
 
 ### 可能會用到的指令
 
+列出 container
+
+```
+$ docker ps
+```
+
 查看 container log
 
 ```
