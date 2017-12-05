@@ -44,7 +44,7 @@ $ docker service ls
 檢查 service
 
 ```
-$ docker service ps 
+$ docker service ps ${service id}
 ```
 
 查看 service 的 log
@@ -66,6 +66,12 @@ $ docker stack rm $(stack name}
 ```
 
 ### 可能會用到的指令
+
+列出 image
+
+```
+$ docker images
+```
 
 列出 container
 
