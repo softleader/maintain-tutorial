@@ -62,7 +62,7 @@ $ docker stack deploy -c ${docker-compose.yml} ${stack name}
 移除 stack
 
 ```
-$ docker stack rm $(stack name}
+$ docker stack rm ${stack name}
 ```
 
 ### 可能會用到的指令
@@ -88,5 +88,5 @@ $ docker logs ${container id}
 查看 container 使用狀況
 
 ```
-$ docker stats (container id)
+$ docker stats ${container id}
 ```
