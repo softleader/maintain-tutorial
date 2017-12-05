@@ -17,7 +17,6 @@
 
 ## 過版指令
 
-
 pull image
 
 ```
@@ -48,6 +47,12 @@ $ docker service ls
 $ docker service ps 
 ```
 
+查看 service 的 log
+
+```
+$ docker service logs ${service id}
+```
+
 部署 stack
 
 ```
@@ -58,4 +63,18 @@ $ docker stack deploy -c ${docker-compose.yml} ${stack name}
 
 ```
 $ docker stack rm $(stack name}
+```
+
+### 可能會用到的指令
+
+查看 container log
+
+```
+$ docker logs ${container id}
+```
+
+查看 container 使用狀況
+
+```
+$ docker stats (container id)
 ```
